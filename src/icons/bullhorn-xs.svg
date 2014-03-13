@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="bullhorn_xs_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="7px" height="7px" viewBox="0 0 7 7" enable-background="new 0 0 7 7" xml:space="preserve">
+<path d="M2.2,4.58c0-0.17,0.14-0.31,0.31-0.31V3.61L1.5,3.5v0.88L2.2,4.58z"/>
+<path d="M2.04,6.71c0.11,0.25,0.41,0.36,0.66,0.25s0.36-0.41,0.25-0.66L2,4H1L2.04,6.71z"/>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M5,6H0V0h5V6z M6,0v6h1V0H6z"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<g id="rc:sm_9_" clip-path="url(#SVGID_2_)">
+		<path d="M0,3.9V2.1C0,2.04,0.04,2,0.1,2h1.8c0.06,0,0.14-0.02,0.19-0.04l3.82-1.91C5.96,0.02,6.04,0,6.1,0h0.8
+			C6.96,0,7,0.04,7,0.1v5.8C7,5.96,6.96,6,6.9,6H6.1C6.04,6,5.96,5.98,5.91,5.96L2.09,4.04C2.04,4.02,1.96,4,1.9,4H0.1
+			C0.04,4,0,3.96,0,3.9z"/>
+	</g>
+</g>
+</svg>
