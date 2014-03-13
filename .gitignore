@@ -4,3 +4,4 @@ node_modules
 output
 Gruntfile.js
 package.json
+tmp
