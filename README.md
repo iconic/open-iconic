@@ -22,10 +22,10 @@
 
 #### Using Open Iconic's SVGs
 
-We like SVGs. 
+We like SVGs and we think they're the way to display icons on the web. Since Open Iconic are just basic SVGs, we suggest you display them like you would any other image (don't forget the `alt` attribute).
 
 ```
-<link href="PATH/TO/open-iconic-bootstrap.css" rel="stylesheet">
+<img src="/open-iconic/svg/icon-name.svg" alt="icon name">
 ```
 
 #### Using Open Iconic's Icon Font...
@@ -39,25 +39,25 @@ You can find our Bootstrap stylesheets in `font/css/open-iconic-bootstrap.{css, 
 
 
 ```
-<link href="PATH/TO/open-iconic-bootstrap.css" rel="stylesheet">
+<link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
 ```
 
 
 ```
-<span class="oi oi-icon-name"></span>
+<span class="oi oi-icon-name" title="icon name" aria-hidden="true"></span>
 ```
 
-##### ...with Foundation
+##### …with Foundation
 
 You can find our Foundation stylesheets in `font/css/open-iconic-foundation.{css, less, scss, styl}`
 
 ```
-<link href="PATH/TO/open-iconic-foundation.css" rel="stylesheet">
+<link href="/open-iconic/font/css/open-iconic-foundation.css" rel="stylesheet">
 ```
 
 
 ```
-<span class="fi-icon-name"></span>
+<span class="fi-icon-name" title="icon name" aria-hidden="true"></span>
 ```
 
 ##### …on its own
@@ -65,11 +65,11 @@ You can find our Foundation stylesheets in `font/css/open-iconic-foundation.{css
 You can find our default stylesheets in `font/css/open-iconic.{css, less, scss, styl}`
 
 ```
-<link href="PATH/TO/open-iconic.css" rel="stylesheet">
+<link href="/open-iconic/font/css/open-iconic.css" rel="stylesheet">
 ```
 
 ```
-<span class="oi" data-glyph="icon-name"></span>
+<span class="oi" data-glyph="icon-name" title="icon name" aria-hidden="true"></span>
 ```
 
 
@@ -77,4 +77,8 @@ You can find our default stylesheets in `font/css/open-iconic.{css, less, scss, 
 
 ### Icons
 
+All code (including SVG markup) is under the [MIT Licensed](http://opensource.org/licenses/MIT).
+
 ### Fonts
+
+All fonts are under the [SIL Licensed](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web).
