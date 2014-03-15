@@ -22,18 +22,21 @@
 
 #### Using Open Iconic's SVGs
 
+We like SVGs. 
+
 ```
 <link href="PATH/TO/open-iconic-bootstrap.css" rel="stylesheet">
 ```
 
-#### Using Open Iconic's Icon Font
-
-```
-<link href="PATH/TO/open-iconic.css" rel="stylesheet">
-```
+#### Using Open Iconic's Icon Font...
 
 
-### Using Open Iconic with Bootstrap
+
+
+##### …with Bootstrap
+
+You can find our Bootstrap stylesheets in `font/css/open-iconic-bootstrap.{css, less, scss, styl}`
+
 
 ```
 <link href="PATH/TO/open-iconic-bootstrap.css" rel="stylesheet">
@@ -44,7 +47,9 @@
 <span class="oi oi-icon-name"></span>
 ```
 
-### Using Open Iconic with Foundation
+##### ...with Foundation
+
+You can find our Foundation stylesheets in `font/css/open-iconic-foundation.{css, less, scss, styl}`
 
 ```
 <link href="PATH/TO/open-iconic-foundation.css" rel="stylesheet">
@@ -55,15 +60,18 @@
 <span class="fi-icon-name"></span>
 ```
 
+##### …on its own
 
+You can find our default stylesheets in `font/css/open-iconic.{css, less, scss, styl}`
 
+```
+<link href="PATH/TO/open-iconic.css" rel="stylesheet">
+```
 
+```
+<span class="oi" data-glyph="icon-name"></span>
+```
 
-
-
-### Font
-
-### Code
 
 ## License
 
