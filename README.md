@@ -1,7 +1,7 @@
 [Open Iconic v1.0.0](http://useiconic.com/open)
 ===========
 
-### Open Iconic is the open source sibling of [Iconic](http://useiconic.com). It is a hyper-legible collection of 204 icons with a tiny footprint&mdash;ready to use with Bootstrap and Foundation. [View the collection](http://useiconic.com/open#icons)
+### Open Iconic is the open source sibling of [Iconic](http://useiconic.com). It is a hyper-legible collection of 219 icons with a tiny footprint&mdash;ready to use with Bootstrap and Foundation. [View the collection](http://useiconic.com/open#icons)
 
 
 
