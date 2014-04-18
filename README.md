@@ -77,7 +77,7 @@ You can find our default stylesheets in `font/css/open-iconic.{css, less, scss, 
 
 ### Icons
 
-All code (including SVG markup) is under the [GPLv3 Licensed](http://www.gnu.org/licenses/gpl-3.0.html).
+All code (including SVG markup) is under the [MIT License](http://opensource.org/licenses/MIT).
 
 ### Fonts
 
