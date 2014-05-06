@@ -1,4 +1,4 @@
-[Open Iconic v1.0.0](http://useiconic.com/open)
+[Open Iconic v1.1.0](http://useiconic.com/open)
 ===========
 
 ### Open Iconic is the open source sibling of [Iconic](http://useiconic.com). It is a hyper-legible collection of 218 icons with a tiny footprint&mdash;ready to use with Bootstrap and Foundation. [View the collection](http://useiconic.com/open#icons)
@@ -7,8 +7,9 @@
 
 ## What's in Open Iconic?
 
-* 204 icons designed to be legible down to 8 pixels
-* Super-light SVG files (66Kb for the entire set)
+* 223 icons designed to be legible down to 8 pixels
+* Super-light SVG files - 61.8 for the entire set 
+* SVG sprite&mdash;the modern replacement for icon fonts
 * Webfont (EOT, OTF, SVG, TTF, WOFF), PNG and WebP formats
 * Webfont stylesheets (including versions for Bootstrap and Foundation) in CSS, LESS, SCSS and Stylus formats
 * PNG and WebP raster images in 8px, 16px, 24px, 32px, 48px and 64px.
@@ -28,9 +29,38 @@ We like SVGs and we think they're the way to display icons on the web. Since Ope
 <img src="/open-iconic/svg/icon-name.svg" alt="icon name">
 ```
 
+#### Using Open Iconic's SVG Sprite
+
+Open Iconic also comes in a SVG sprite which allows you to display all the icons in the set with a single request. It's like an icon font, without being a hack.
+
+Adding an icon from an SVG sprite is a little different than what you're used to, but it's still a piece of cake. *Tip: To make your icons easily style able, we suggest adding a general class to the* `<svg>` *tag and a unique class name for each different icon in the* `<use>` *tag.*  
+
+```
+<svg viewBox="0 0 8 8" class="icon">
+  <use xlink:href="open-iconic.svg#account-login" class="icon-account-login"></use>
+</svg>
+```
+
+Sizing icons only needs basic CSS. All the icons are in a square format, so just set the `<svg>` tag with equal width and height dimensions.
+
+```
+.icon {
+  width: 16px;
+  height: 16px;
+}
+```
+
+Coloring icons is even easier. All you need to do is set the `fill` rule on the `<use>` tag.
+
+```
+.icon-account-login {
+  fill: #f00;
+}
+```
+
+To learn more about SVG Sprites, read [Chris Coyier's guide](http://css-tricks.com/svg-sprites-use-better-icon-fonts/).
+
 #### Using Open Iconic's Icon Font...
-
-
 
 
 ##### …with Bootstrap
