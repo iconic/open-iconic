@@ -1,4 +1,4 @@
-[Open Iconic v1.1.0](http://useiconic.com/open)
+[Open Iconic v1.1.1](http://useiconic.com/open)
 ===========
 
 ### Open Iconic is the open source sibling of [Iconic](http://useiconic.com). It is a hyper-legible collection of 223 icons with a tiny footprint&mdash;ready to use with Bootstrap and Foundation. [View the collection](http://useiconic.com/open#icons)
@@ -36,7 +36,7 @@ Open Iconic also comes in a SVG sprite which allows you to display all the icons
 Adding an icon from an SVG sprite is a little different than what you're used to, but it's still a piece of cake. *Tip: To make your icons easily style able, we suggest adding a general class to the* `<svg>` *tag and a unique class name for each different icon in the* `<use>` *tag.*  
 
 ```
-<svg viewBox="0 0 8 8" class="icon">
+<svg class="icon">
   <use xlink:href="open-iconic.svg#account-login" class="icon-account-login"></use>
 </svg>
 ```

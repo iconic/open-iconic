@@ -1,6 +1,9 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-  <defs>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 8 8" style="display:none;">
+  <symbol viewBox="0 0 8 8" id="account-login">
     <path d="M3 0v1h4v5h-4v1h5v-7h-5zm1 2v1h-4v1h4v1l2-1.5-2-1.5z" id="account-login"></path>
+  </symbol>
+  <defs>
+
 
     <path d="M3 0v1h4v5h-4v1h5v-7h-5zm-1 2l-2 1.5 2 1.5v-1h4v-1h-4v-1z" id="account-logout"></path>
 
