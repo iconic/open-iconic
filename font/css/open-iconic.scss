@@ -1,4 +1,4 @@
-$iconic-font-path: '../fonts/';
+$iconic-font-path: '../fonts/' !default;
 
 @font-face {
   font-family: 'Icons';
@@ -960,3 +960,4 @@ $iconic-font-path: '../fonts/';
 .oi[data-glyph=zoom-out]:before {
   content: '\e0de';
 }
+
