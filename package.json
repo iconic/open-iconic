@@ -4,7 +4,7 @@
   "version": "1.1.1",
   "keywords": ["icon", "iconic", "open-iconic", "svg", "sprite", "font", "png", "webp"],
   "homepage": "http://useiconic.com/open-iconic/",
-  "main": "index.js",
+  "main": "font/css/open-iconic.css",
   "author": {
     "name": "Iconic",
     "email": "yourfriends@useiconic.com",
