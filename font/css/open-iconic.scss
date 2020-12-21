@@ -21,7 +21,6 @@ $iconic-font-path: '../fonts/' !default;
 .oi[data-glyph] {
   &:before {
     position: relative;
-    top: 1px;
     font-family: 'Icons';
     display: inline-block;
     speak: none;
